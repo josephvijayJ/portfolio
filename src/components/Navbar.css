@@ -1,0 +1,48 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  position: sticky;
+  top: 0;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font: bold;
+}
+.navbar a {
+  list-style: none;
+  text-decoration: none;
+}
+.navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 20px 0px;
+}
+.navbar ul li {
+  font-family: century;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 8px 25px;
+  transition: all 0.5s ease;
+  color: white;
+  list-style: none;
+}
+.navbar ul a {
+  text-decoration: none;
+  list-style: none;
+}
+.navbar ul li:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 10px white;
+}
+@media only screen and (max-width: 800px) {
+  .navbar ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

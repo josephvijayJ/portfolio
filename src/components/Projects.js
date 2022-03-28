@@ -19,7 +19,7 @@ const Projects = () => {
                   alt="shopping img"
                 />
               </a>
-              <h4 className="project-title">Story App</h4>
+              <h4 className="project-title">Shooping App</h4>
               <div className="src-container">
                 <h4>Click to view</h4>
                 <div className="src-link">
